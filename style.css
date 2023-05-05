@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Nosifer&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(img/fon.svg) center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    overflow-x: hidden ;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+.section {
+    font-size: 70px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav {
+    height: 57px;
+    margin-top: 25px;
+}
+
+.search {
+    height: 57px;
+}
+
+.submit-img {
+    background-image: url(img/search.png);
+    height: 57px;
+    width: 57px;
+    border: none;
+    background-color: #D9D9D9;
+    z-index: 123;
+
+}
+.submit-img:focus {
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+}
+
+.input-search {
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: #000;
+    height: 57px;
+    border: none;
+    background-color: #D9D9D9;
+    z-index: 122;
+}
+
+.search-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.logo-wednesday {
+    margin: 111px auto 0;
+}
+
+
+.text-title {
+    text-align: center;
+}
+
+.title {
+    margin-top: 86px;
+}
+
+.title>span {
+
+    font-family: 'Nosifer', cursive;
+    font-size: 48px;
+    color: #000;
+}
+
+
+.producer>span {
+    font-size: 32px;
+    color: #2D5683;
+}
+
+
+.teams {
+    text-align: center;
+    margin-top: 165px;
+    background: rgba(58, 79, 186, 0.21);
+    border: 9px solid #000000;
+    border-radius: 65px;
+    padding: 105px 30px 60px;
+    width: 1276px;
+}
+
+
+.legs{
+    text-align: center;
+}
+
+.heroes {
+}
+
+.heroes-title {
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+.heroes-title>span {
+    background: rgba(217, 217, 217, 0.2);
+    border: 9px solid #000000;
+    border-radius: 65px;
+    padding: 55px 20px;
+}
+
+
+.menu1 {
+    display: flex;
+    margin-top: 265px;
+}
+
+.menu1>span {
+    align-items: center;
+    display: flex;
+    width: 669px;
+    height: 1300px;
+    text-align: center;
+    background: rgba(12, 40, 90, 0.47);
+    border: 9px solid #000000;
+    border-radius: 65px;
+    padding: 50px 50px 50px;
+}
+
+.slider-next {
+    border: none;
+    background-color: transparent;
+}
+
+.slider {
+    width: 1600px;
+    
+}
+
+#myDIV{ display: flex;}
+
+#myDIV1{
+    display: none;
+    justify-content: space-between;
+}
+
+
+.arms {
+    display: flex;
+    justify-content: end;
+}
+
+.heroesinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 182px;
+}
+
+.heroesinfo>span {
+    background: rgba(58, 79, 186, 0.21);
+    border: 9px solid #000000;
+    border-radius: 65px;
+    width: 675px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+#spiderpng {
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1920px;
+}
+
+.backgroundgames {
+    background: url(img/backgroundgames.png) no-repeat center; 
+    width: 100%;
+    text-align: center;
+    height: 1397px;
+    margin: 250px auto 0;
+}
+
+#heroesinfo2{
+    margin-top: 0;
+    align-items: start;
+}
+#heroesinfo2>span{
+    margin: 200px 0;
+}
+
+
+.gates {
+    background: url(img/gates.png) no-repeat center;
+    width: 100%;
+    height: 464px;
+}
+
+.download {
+    background: url(img/backgrounddownload.png) no-repeat center;
+    width: 100%;
+    font-size: 64px;
+}
+
+.btns {
+    padding-top: 47px;
+}
+
+.menu-link {
+    text-align: center;
+}
+
+.link {
+    background: rgba(217, 217, 217, 0.2);
+    border: 9px solid #000000;
+    border-radius: 65px;
+    padding: 17px 20px;
+}
+
+.btn1 {
+    margin-top: 83px;
+}
+
+.btn1>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.menu-link1 {
+    text-align: center;
+    background: rgba(58, 79, 186, 0.21);
+    border: 9px solid #000000;
+    border-radius: 65px;
+    width: 625px;
+}
+.menu-link3 {
+    text-align: center;
+    background: rgba(217, 217, 217, 0.2);
+    border: 9px solid #000000;
+    border-radius: 65px;
+    width: 625px;
+    display: flex;
+    align-items: center;
+}
+
+#btn2>ul {
+    margin-top: 137px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btnnone {
+    display: none;
+}
+
+
+
+@media (max-width:1763px){
+
+    #spiderpng>span {
+        margin-left: 20%;
+    }
+    .arms {
+        display: none;
+    }
+    .menu-link1 {
+    display: flex;
+    align-items: center;
+    }
+    .section {
+        font-size: 26px;
+    }
+    .container {
+        max-width: 1200px; 
+        margin: 0 auto;
+    }
+
+
+    .logo-wednesday {
+        text-align: center;
+        margin: 30px auto 0;
+    }
+
+    .title {
+        margin-top: 20px;
+    }
+    .heroes-title {
+        margin: 20px 0;
+    }
+
+    .heroes-title>span {
+        padding: 20px 50px;
+    }
+    .logo-wednesday>img{
+        width: 800px;
+        text-align: center;
+    }
+    .teams {
+        padding: 10px;
+        width: 500px;
+        margin: 20px auto 0;
+    }
+    .menu1 {
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    .menu1>span {
+        width: 400px;
+        height: 300px;
+    }
+    
+    .menu1>img {
+        height: 800px;
+    }
+    .slider {
+        max-width: 1200px;
+    }
+    .legs>img{
+        height: 400px;
+    }
+
+    .download {
+        font-size: 26px;
+    }
+    .heroesinfo>span {
+        width: 400px;
+    }
+
+    #myDIV {
+        display: block;
+    }
+    #myDIV1 {
+        display: none;
+    }
+
+    .heroesinfo {
+        justify-content: space-around;
+        margin-top:25px;
+    }
+    .heroesinfo>img{
+        height: 500px;
+    }
+
+    #btn2>ul {
+        margin-top: 25px;
+    }
+
+    .btn1>ul {
+
+    }
+    
+    .link1 {
+        padding: 20px 5px;
+    }
+    .menu-link1, .menu-link3 {
+        display: block;
+        width: 300px;
+        padding: 10px;
+    }
+    
+}
+
+
+@media (max-width:1220px) {
+    .section {
+        font-size: 20px;
+    }
+    .menu1 {
+        justify-content: center;
+        display: block;
+        text-align: center;
+
+    }
+    .menu1>span {
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .slider {
+        max-width: 600px;
+    }
+    .legs>img {
+        height: 200px;
+    }
+    .logo-wednesday>img {
+        width: 300px;
+    }
+    .slider {
+        margin: 0 auto;
+        width: 500px;
+    }
+
+
+    .btn {
+        display: none;
+    }
+
+    .btnnone {
+        display: block;
+    }
+}
+
+
+@media (max-width:560px) {
+    #spiderpng>span {
+        margin-left: 0;
+    }
+
+    #spiderpng>img{
+        display: none;
+    }
+    .slider {
+        width: 300px;
+    }
+    .teams {
+        width: 200px;
+    }
+    .legs>img {
+        height: 200px;
+        width: 200px;
+    }
+    .heroes-title>span {
+        padding: 20px 5px;
+    }
+
+    .menu1>span {
+        width: 200px;
+        height: 370px;
+    }
+
+    .menu1>img{ 
+        height: 500px;
+    }
+
+    .heroesinfo>img {
+        height: 150px;
+    }
+    .download {
+        font-size: 15px;
+    }
+    .heroesinfo {
+        flex-direction: column;
+    }
+
+    .heroesinfo>span {
+        width: 200px;
+    }
+
+    #heroesinfo2 {
+        flex-direction: row;
+    }
+}
