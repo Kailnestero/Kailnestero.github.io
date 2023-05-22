@@ -387,6 +387,7 @@ justify-content: center;}
 }
 
 .popup-inner {
+    border:10px solid #000;
     position: relative;
     background-color: #FFF;
     max-width: 800px;
