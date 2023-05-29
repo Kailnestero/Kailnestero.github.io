@@ -424,6 +424,7 @@ justify-content: center;}
 }
 
 .popup-inner {
+    text-shadow:none;
     border: 10px solid #000;
     position: relative;
     background-color: #FFF;
@@ -441,7 +442,9 @@ justify-content: center;}
 .popup-inner>h2,h3{
     text-align: center;
 }
-
+.title>span {
+    text-shadow:none;
+}
 
 .close-popup{
     display: flex;
