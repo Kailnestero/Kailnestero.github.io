@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин мебели</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="java.js" defer></script>
+    <script src="price.js" defer></script>
+    <script src="auth.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="nav-start">
+                    <div class="logo-search">
+                        <div class="logo">
+                            <h2>Мебель</h2>
+                        </div>
+                        <div class="searchs">
+                            <form> 
+                                <input type="text" name=text" class="search" placeholder="Поиск">
+                              </form>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="" class="items">Коллекции</a>
+                        <a href="" class="items">Мебель</a>
+                        <a href="" class="items">Освещение</a>
+                        <a href="" class="items">Аксессуары</a>
+                        <a href="" class="items">Доставка</a>
+                    </div>
+                </div>
+                <div class="auth">
+                    <a href=""><img src="img/shopping-cart.svg" alt=""></a>
+                    <a id="trigger" href="#"><img src="img/user.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="card-container">
+                <div class="link-title">
+                    <a href="index.html">Главная</a>
+                </div>
+            </div>
+                <div class="basket">
+                    <h2 class="basket-title">
+                        Корзина
+                    </h2>
+
+                    <div class="basket-item">
+                        
+                        <div class="basketbuy">
+                            <div class="basketbuy-item">
+                                <div class="basket-img">
+                                    <img src="img/Frame 9.png" alt="">
+                                </div>
+                                <div class="basket-info">
+                                    <div class="basket-description">
+                                        <table class="table-spacing">
+                                            <tr>
+                                                <td>Наименование товара:</td>
+                                                <td>Кресло Барселона</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Количество:</td>
+                                                <td>       
+                                                    <div class="input-group" id="no-margin">
+                                                        <input type="button" value="-" id="button_minus">
+                                                        <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                                        <input type="button" value="+" id="button_plus">
+                                                    </div>                                                        
+                                            </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Цена:</td>
+                                                <td id="price">5000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Цвет:</td>
+                                                <td>Чёрный</td>
+                                            </tr>
+    
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="arrange">
+                                    <table class="table-spacing">
+                                        <tr>
+                                            <td>Количество товаров:</td>
+                                            <td>1</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Стоимость заказа:</td>
+                                            <td>0$</td>
+                                        </tr>
+                                    </table>
+    
+                                    <button class="btn-link">Оформить заказ</button>
+                                </div>
+                                
+                            </div>
+                            
+
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="modal" id="modals">
+            <div class="modal__content">
+              <button id="close" class="modal__close-button"><img src="./img/clsoe.png" width="18" alt=""></button>
+              <div class="auth-center">
+                <div class="auth-border">
+                    <h2 class="auth-title">Вход в личный кабинет</h2>
+                    <form class="form_auth_style" action="#" method="post">
+                        <input class="auth-input" type="email" name="auth_email" placeholder="Введите Ваш e-mail" required >
+                        <input class="auth-input" type="password" name="auth_pass" placeholder="Введите пароль" required >
+                        <button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
+                      </form>
+                </div>                
+            </div>
+            </div>
+          </div>
+    </main>
+    
+</body>

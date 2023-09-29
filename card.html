@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин мебели</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="price.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="nav-start">
+                    <div class="logo-search">
+                        <div class="logo">
+                            <h2>Мебель</h2>
+                        </div>
+                        <div class="searchs">
+                            <form> 
+                                <input type="text" name=text" class="search" placeholder="Поиск">
+                              </form>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="" class="items">Коллекции</a>
+                        <a href="" class="items">Мебель</a>
+                        <a href="" class="items">Освещение</a>
+                        <a href="" class="items">Аксессуары</a>
+                        <a href="" class="items">Доставка</a>
+                    </div>
+                </div>
+                <div class="auth">
+                    <a href="basket.html"><img src="img/shopping-cart.svg" alt=""></a>
+                    <a id="trigger" href=""><img src="img/user.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="card-container">
+                <div class="link-title">
+                    <a href="index.html">Главная</a>
+                    <span>/</span>
+                    <a href="">Мебель</a>
+                    <span>/</span>
+                    <a href="">Кресла</a>
+                    <span>/</span>
+                    <span>Кресло Барселона</span>
+                </div>
+
+                <div class="card-info">
+                    <div class="card-img">
+                        <img src="img/card-barselona.png" alt="">
+                    </div>
+                    <div class="card-title">
+                        <div class="card-name">
+                            <h2>Кресло Барселона</h2>
+                            <p>Ludwig Mies van der Rohe 1929</p>
+                        </div>
+                        <div class="card-text">
+                            <p>Кресло Barcelona, ​​один из самых узнаваемых предметов прошлого века и икона современного движения, излучает простую элегантность, олицетворяющую самый известный принцип Мис ван дер Роэ: «меньше значит больше».</p>
+                        </div>
+
+                        <div class="card-price">
+                            <h2 id="price">5000 </h2>
+                            <span style="font-weight: bold;">₽</span>
+                            <div class="input-group">
+                                <input type="button" value="-" id="button_minus">
+                                <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                <input type="button" value="+" id="button_plus">
+                              </div>
+                        </div>
+                        
+                        <div class="basket-add">
+                            <div class="delivery-add">
+                                <p>Бесплатная доставка в Ижевск</p>
+                            </div>
+                            <div>
+                                <button class="btn-basket">Добавить в корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="modal" id="modals">
+        <div class="modal__content">
+          <button id="close" class="modal__close-button"><img src="./img/clsoe.png" width="18" alt=""></button>
+          <div class="auth-center">
+            <div class="auth-border">
+                <h2 class="auth-title">Вход в личный кабинет</h2>
+                <form class="form_auth_style" action="#" method="post">
+                    <input class="auth-input" type="email" name="auth_email" placeholder="Введите Ваш e-mail" required >
+                    <input class="auth-input" type="password" name="auth_pass" placeholder="Введите пароль" required >
+                    <button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
+                  </form>
+            </div>                
+        </div>
+        </div>
+      </div>
+    <script src="java.js"></script>
+</body>
